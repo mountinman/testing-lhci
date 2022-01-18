@@ -1,7 +1,9 @@
 module.exports = {
     ci: {
-        collect: {
-          staticDistDir: './out',
-        }
-    }
-}
+      collect: {
+        startServerCommand: 'npm run dev',
+        url: ['http://localhost:3000/'],
+        numberOfRuns: 5,
+      },
+    },
+  };
